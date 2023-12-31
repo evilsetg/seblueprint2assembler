@@ -8,7 +8,7 @@ One caveat of this method is that the amount of components that each ingame bloc
 For this purpose a command line utility is included that creates a text file to put into the Storage of the programmable block.
 
 ** Usage
-1. Run secomponents.exe in the command prompt to generate the components.txt file.
+1. Run se_parseblocks.exe in the command prompt to generate the components.txt file.
    The contents of this put into your programmable block Storage.
 2. Put the IngameScripts/blueprint2assembler folder into the IngameScripts\local folder of your Space Engineers.
    Usually that will be %AppData%\Roaming\Space Engineers\IngameScripts\local
