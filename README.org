@@ -1,0 +1,21 @@
+* Space Engineers Blueprint to Assembler script
+This is an ingame script that takes the blueprint of a Projector and puts the remaining components into production
+It also prints the needed components so it is also useful to get a list of components for blueprints.
+This is different to the mods on Steam workshop in that is uses ingame scripting instead of modding tools.
+That makes it suitable for multiplayer where mods are not allowed.
+
+One caveat of this method is that the amount of components that each ingame block has needs to be supplied as that information is not available for ingame scripts.
+For this purpose a command line utility is included that creates a text file to put into the Storage of the programmable block.
+
+** Usage
+1. Run secomponents.exe in the command prompt to generate the components.txt file.
+   The contents of this put into your programmable block Storage.
+2. Put the IngameScripts/blueprint2assembler folder into the IngameScripts\local folder of your Space Engineers.
+   Usually that will be %AppData%\Roaming\Space Engineers\IngameScripts\local
+3. Load the script ingame
+4. Add 3 arguments:
+   1. Projector block name
+   2. Assembler block name
+   3. (optional) Surface block name
+      (The components will also be printed here)
+5. Run the Script.
